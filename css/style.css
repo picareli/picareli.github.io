@@ -1,0 +1,207 @@
+body
+{
+    margin: 0;
+    padding: 0;
+
+    background-color: #E8DF9C;
+}
+
+/* SIDEBAR */
+.sidebar
+{
+    margin: 0;
+    padding: 0;
+
+    width: 20%;
+    height: 100%;
+    float: left;
+    position: fixed;
+    background-color: #F75E50;
+}
+
+/* MENU */
+.menu
+{
+    margin: 0;
+    padding: 25% 0;
+
+    list-style-type: none;
+
+    font-size: 1.6rem;
+    font-family: CarterOne;
+    letter-spacing: 1px;
+
+    text-align: center;
+}
+
+.menu li
+{
+    padding: 5px 0;
+}
+
+.menu li:first-child
+{
+    padding-top: 0;
+}
+
+.menu li a
+{
+    color: #FFF;
+    text-shadow: 2px 2px #7D7769;
+    text-decoration: none;
+}
+
+.menu a:hover
+{
+    color: #EAC761;
+    text-decoration: underline;
+}
+
+/* FIRST PAGE */
+.first-page
+{
+    height: 100vh;
+}
+
+/* BANNER */
+.banner
+{
+    margin: 0;
+    padding: 7.5vh 0;
+
+    text-align: center;
+    font-family: Candlelight;
+    font-size: 6rem;
+}
+
+/* MAIN */
+.main
+{
+    margin: 0;
+    padding-left: 20%;
+}
+
+/* CONTAINER */
+.container
+{
+    margin-right: 10%;
+}
+
+/* ROWS */
+.row
+{
+    padding: 15px 0;
+
+    margin: 0;
+}
+
+.row--fixed-height
+{
+    height: 150px;
+}
+
+.row--paragraph
+{
+    padding: 15px 10px;
+}
+
+.row--paragraph h1
+{
+    color: #7D7769;
+}
+
+.quote
+{
+    height: 100%;
+    width: 70%;
+    
+    float: left;
+
+    font-size: 1.5rem;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.description
+{
+    width: 100%;
+    background: #EAC761;    
+
+    padding: 15px 5px;
+}
+
+.info
+{
+    float: left;
+    width: 30%;
+}
+
+.info img
+{
+    width: 150px;
+    height: 150px;
+
+    float: left;
+}
+
+.info-text
+{
+    height: 100%;
+}
+
+.icon
+{
+    width: 33.333%;
+    
+    float: left;
+
+    text-align: center;
+}
+
+.icon img
+{
+    display: block;
+    margin: auto;
+
+    width: 128px;
+    height: 128px;
+}
+
+.button
+{
+    background: #91C09E;
+
+    display: block;
+    float: right;
+
+    padding: 10px 10px;
+    margin: 5px 5px;
+
+    text-decoration: none;
+    color: #FFF;
+
+    /* text-shadow: 2px 2px #000; */
+
+    border-radius: 2px;
+    box-shadow: 2px 2px #7D7769;
+}
+
+.button:hover
+{
+    background: #F75E50;
+
+    text-decoration: underline;
+}
+
+@font-face
+{
+    font-family: CarterOne;
+    src: url(../fonts/carter-one.regular.ttf);
+}
+
+@font-face
+{
+    font-family: Candlelight;
+    src: url(../fonts/candlelight.ttf);
+}
