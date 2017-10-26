@@ -84,19 +84,21 @@ body
 .linkedin
 {
     background: url(../img/linkedin.png);
-    background-size: 50px 50px;
+}
+
+.social--icon:hover
+{
+    background-position-y: -50px;
 }
 
 .unity
 {
     background: url(../img/unity.png);
-    background-size: 50px 50px;
 }
 
 .github
 {
     background: url(../img/github.png);
-    background-size: 50px 50px;
 }
 
 /* MAIN */
