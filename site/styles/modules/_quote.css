@@ -1,0 +1,16 @@
+.quote
+{
+    height: 100%;
+    width: 70%;
+    
+    float: left;
+
+    font-size: 1.5rem;
+    font-family: "Times New Roman";
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+
+    background: $mainGray;
+}

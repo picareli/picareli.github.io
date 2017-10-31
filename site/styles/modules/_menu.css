@@ -1,0 +1,42 @@
+.menu
+{
+    margin-top: 100px;
+    padding: 0;
+
+    list-style-type: none;
+
+    font-size: 1.6rem;
+    font-family: CarterOne;
+    letter-spacing: 1px;
+
+    text-align: center;
+}
+
+.menu li
+{
+    padding: 5px 0;
+}
+
+.menu li:first-child
+{
+    padding-top: 0;
+}
+
+.menu li a
+{
+    color: white;
+    text-shadow: 2px 2px $mainGray;
+    text-decoration: none;
+}
+
+.menu a:hover
+{
+    color: $mainYellow;
+    text-decoration: underline;
+}
+
+@font-face
+{
+    font-family: CarterOne;
+    src: url(../../fonts/carter-one.regular.ttf);
+}

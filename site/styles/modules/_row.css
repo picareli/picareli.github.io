@@ -1,0 +1,20 @@
+.row
+{
+    padding: 15px 0;
+    margin: 0;
+}
+
+.row--fixed-height
+{
+    height: 150px;
+}
+
+.row--paragraph
+{
+    padding-left: 10px;
+}
+
+.row--paragraph h1
+{
+    color: $mainGray;
+}

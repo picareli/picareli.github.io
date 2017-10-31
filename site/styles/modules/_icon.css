@@ -1,0 +1,42 @@
+.icon
+{
+    width: 33.333%;
+    
+    float: left;
+
+    text-align: center;
+}
+
+.icon h2
+{
+    color: $mainRed;
+    font-family: Cambria;
+    text-shadow: 1px 1px white;
+    margin-bottom: .5rem;
+}
+
+.icon p
+{
+    background: $mainGreen;
+    color: white;
+
+    margin: 10px;
+    padding: .25rem 0;
+
+    border-radius: 5px;
+}
+
+.icon img
+{
+    display: block;
+    margin: auto;
+    
+    width: 100px;
+    height: 100px;
+
+    background: white;
+    border-radius: 10px;
+
+    /* filter: blur(1px); */
+    opacity: .95;
+}
