@@ -1,18 +1,18 @@
-body
-{
+body {
     margin: 0;
     padding: 0;
-
-    background-color: rgb(232, 223, 156)
 }
 
-.main
-{
+br{
+    display: block;
+    margin-top: 5px;
+}
+
+.main {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.container
-{
+.container {
     margin: auto;
     margin-top: 10vh;
 
@@ -21,14 +21,10 @@ body
     border-radius: 3px;
 }
 
-.row
-{
+.row {}
 
-}
-
-.quote
-{
-    background-color: rgb(247, 94, 80);
+.quote {
+    background: rgb(255, 240, 195);
 
     display: block;
     float: left;
@@ -40,25 +36,25 @@ body
     text-align: justify;
     font-size: .95rem;
 
-    box-shadow: rgba(65, 64, 66, .7) -3px 4px 4px;
+    box-shadow: rgb(230, 230, 230) -3px 4px 4px;
 }
 
-.quote h5
-{
-    text-align: left;
-    font-size: .85rem;
-    font-weight: 400;
-    color: rgb(39, 39, 39);
+.quote a{
+    text-decoration: none;
+
+    color: rgb(4, 131, 204);
 }
 
-.info
-{
+.quote a:hover{
+    color: rgb(255, 122, 74);
+}
+
+.info {
     display: block;
     float: right;
 }
 
-.info img
-{
+.info img {
     width: 100px;
     height: 100px;
 
@@ -66,17 +62,11 @@ body
     border-radius: 50px;
 }
 
-.info p
-{
-    /* width: 100px; */
-    border-radius: 2px;
-
-    color: white;
-    background-color: rgb(145, 192, 158);
+.info p {
+    background-color: rgb(208, 233, 208);
 
     text-align: right;
     font-size: .9rem;
-    /* font-weight: 600; */
 
     padding: 3;
     padding-right: 10;
@@ -84,15 +74,15 @@ body
     margin-top: 5;
 
     font-style: italic;
+
+    box-shadow: rgb(230, 230, 230) -3px 4px 4px;
 }
 
-.social
-{
+.social {
     opacity: .8;
 }
 
-.social a
-{
+.social a {
     margin-top: 5px;
     margin-bottom: 5px;
 
@@ -105,17 +95,14 @@ body
     margin-right: 5px;
 }
 
-.linkedin
-{
+.linkedin {
     background: url("../img/ln.png");
 }
 
-.github
-{
+.github {
     background: url("../img/gh.png");
 }
 
-.unity
-{
+.unity {
     background: url("../img/un.png");
 }
