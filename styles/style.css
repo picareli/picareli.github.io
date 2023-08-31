@@ -1,9 +1,11 @@
 body {
     margin: 0;
     padding: 0;
+
+    background: rgb(255, 254, 250);
 }
 
-br{
+br {
     display: block;
     margin-top: 5px;
 }
@@ -17,41 +19,39 @@ br{
     margin-top: 10vh;
 
     width: 50%;
-
-    border-radius: 3px;
 }
 
 .row {}
 
 .quote {
-    background: rgb(255, 240, 195);
+    background: rgb(152, 154, 142);
 
     display: block;
     float: left;
 
-    width: 77.5%;
-    padding: 15px;
-    padding-bottom: 8px;
+    width: 70%;
+    padding: 10px 20px 10px 20px;
+    /* padding-bottom: 8px; */
 
     text-align: justify;
     font-size: .95rem;
-
-    box-shadow: rgb(230, 230, 230) -3px 4px 4px;
 }
 
-.quote a{
+.quote a {
     text-decoration: none;
 
-    color: rgb(4, 131, 204);
+    color: rgb(46, 45, 43);
 }
 
-.quote a:hover{
-    color: rgb(255, 122, 74);
+.quote a:hover {
+    color: rgb(201, 200, 196);
 }
 
 .info {
     display: block;
-    float: right;
+    float: left;
+
+    margin-left: 25px;
 }
 
 .info img {
@@ -63,19 +63,19 @@ br{
 }
 
 .info p {
-    background-color: rgb(208, 233, 208);
+    color: rgb(255, 254, 250);
+    background-color: rgb(46, 45, 43);
 
     text-align: right;
+
+    font-style: italic;
     font-size: .9rem;
 
     padding: 3;
     padding-right: 10;
+
     margin: 0;
     margin-top: 5;
-
-    font-style: italic;
-
-    box-shadow: rgb(230, 230, 230) -3px 4px 4px;
 }
 
 .social {
@@ -103,6 +103,6 @@ br{
     background: url("../img/gh.png");
 }
 
-.unity {
-    background: url("../img/un.png");
+.box-shadow {
+    box-shadow: rgb(201, 200, 196) -3px 3px 3px;
 }
