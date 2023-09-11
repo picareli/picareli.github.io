@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
 
-    background: rgb(255, 254, 250);
+    background: rgb(255, 249, 222);
 }
 
 br {
@@ -21,10 +21,13 @@ br {
     width: 50%;
 }
 
-.row {}
+.row {
+    
+}
 
 .quote {
-    background: rgb(152, 154, 142);
+    color: rgb(49, 49, 49);
+    background: rgb(255, 211, 176);
 
     display: block;
     float: left;
@@ -38,13 +41,14 @@ br {
 }
 
 .quote a {
+    font-weight: 600;
     text-decoration: none;
 
-    color: rgb(46, 45, 43);
+    color: black;
 }
 
 .quote a:hover {
-    color: rgb(201, 200, 196);
+    color: rgb(255, 255, 255);
 }
 
 .info {
@@ -63,8 +67,7 @@ br {
 }
 
 .info p {
-    color: rgb(255, 254, 250);
-    background-color: rgb(46, 45, 43);
+    background-color: rgb(166, 208, 221);
 
     text-align: right;
 
