@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<svg viewBox="0 0 454 512" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <title>HTML5 Logo Badge</title>
+
+ <g class="layer">
+  <title>Layer 1</title>
+  <g id="svg_5">
+   <path d="m42.5,460l-41,-460l451,0l-41,460l-185,52" fill="#E34F26" id="svg_1"/>
+   <path d="m227.5,472l149,-41l35,-394l-184,0" fill="#EF652A" id="svg_2"/>
+   <path d="m227.5,208l-75,0l-5,-58l80,0l0,-56l-1,0l-141,0l1,15l14,156l127,0l0,-57zm0,147l-1,0l-63,-17l-4,-45l-30,0l-26,0l7,89l116,32l1,0l0,-59z" fill="#EBEBEB" id="svg_3"/>
+   <path d="m226.5,208l0,57l70,0l-7,73l-63,17l0,59l116,-32l1,-10l13,-149l2,-15l-16,0l-116,0zm0,-114l0,35l0,21l0,0l137,0l0,0l0,0l1,-12l3,-29l1,-15l-142,0z" fill="#FFF" id="svg_4"/>
+  </g>
+ </g>
+</svg>
