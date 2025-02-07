@@ -3,68 +3,79 @@
 <head>
     <title>Luis Picareli - Software Developer</title>
 
+    <link rel="stylesheet" type="text/css" href="styles/general.css" />
     <link rel="stylesheet" type="text/css" href="styles/newstyle.css" />
 </head>
 
 <body>
-    <div class="main">
-
-        <div class="menu">
+    <div>
+        <nav class="flex row menu">
+            <a href="">Resume</a>
             <a href="">Projects</a>
             <a href="">Experience</a>
-        </div>
+        </nav>
 
-        <div class="info">
+        <div class="flex column info">
+
             <div class="avatar"></div>
 
-            <p class="fname">Luís Picareli</p>
-            <p class="title">Software Developer, C# & .Net, Unity Engine</p>
-            <p class="timezone">Lisbon (GMT +0)</p>
+            <p class="title no-margin">Luís Picareli</p>
+            <p class="subtitle no-margin">Software Developer, C# & .Net, Unity Engine</p>
+            <p class="heading no-margin">Lisbon <b>(GMT +0)</b></p>
 
-            <div class="socials">
+            <div class="flex row socials">
+
                 <a class="linkedin" href="http://www.linkedin.com/in/picareli" title="Linkedin"></a>
+
                 <a class="github" href="http://www.github.com/picareli" title="Github"></a>
+
                 <a class="orcid" href="https://orcid.org/0000-0003-2081-5875" title="Orcid">iD</a>
+
                 <a class="cv" href="files/CV_LuisPicareli.pdf" title="My CV"></a>
+
             </div>
+
         </div>
 
-        <div class="main-container">
-            <p class="container-title">~/Projects</p>
+        <div class="flex column main-container">
 
-            <div class="projects-container">
+            <p class="title no-margin">~/Past-Projects</p>
 
-                <div class="project-info">
+            <div class="flex row column-gap">
 
-                    <p class="project-title">~/Projects/Zealot</p>
+                <div class="flex column flex-child padding-single bg-color">
 
-                    <div class="project-description">
+                    <p class="subtitle no-margin align-right separator"><b>~/Past-Projects/</b>Zealot</p>
 
-                        <div class="description-icons">
+                    <div class="flex row flex-child">
 
-                            <a href="">
+                        <div class="flex column flex-child padding-double image-container description-logos">
+
+                            <a href="" title="Unity Engine">
                                 <img src="img/logos/unity.svg" />
                             </a>
 
-                            <a href="">
+                            <a href="" title="Platic SCM">
                                 <img src="img/logos/plastic-scm.svg" />
                             </a>
 
                         </div>
 
-                        <p class="description-text">The quick brown fox jumped over the lazy dog.</p>
+                        <p class="flex-child align-right">
+                            The quick brown fox jumped over the lazy dog.
+                        </p>
 
                     </div>
 
                 </div>
 
-                <div class="project-info">
+                <div class="flex column flex-child padding-single bg-color">
 
-                    <p class="project-title">~/Projects/Systemic Lisbon Battery</p>
+                    <p class="subtitle no-margin align-right separator"><b>~/Past-Projects/</b>Systemic-Lisbon-Battery</p>
 
-                    <div class="project-description">
+                    <div class="flex row flex-child">
 
-                        <div class="description-icons">
+                        <div class="flex column flex-child padding-double image-container description-logos">
 
                             <a href="">
                                 <img src="img/logos/unity.svg" />
@@ -80,45 +91,54 @@
 
                         </div>
 
-                        <p class="description-text">The quick brown fox jumped over the lazy dog.</p>
+                        <p class="flex-child align-right">
+                            The quick brown fox jumped over the lazy dog.
+                        </p>
+
                     </div>
+
                 </div>
+
             </div>
 
-            <p class="container-title">~/Skills</p>
+            <p class="title no-margin">~/Skills</p>
 
-            <div class="skills-container">
-                <div class="languages-container logo-container">
-                    <img src="img/logos/csharp.svg" alt="C#" />
+            <div class="flex column padding-double bg-color" style="row-gap: 50px;">
 
-                    <img src="img/logos/c.svg" alt="C" />
+                <div class="flex-child flex row image-container skill-logos">
 
-                    <img src="img/logos/python.svg" alt="Python" />
+                    <img src="img/logos/csharp.svg" />
 
-                    <img src="img/logos/lua.svg" alt="Lua" />
+                    <img src="img/logos/c.svg" />
 
-                    <img src="img/logos/javascript.svg" alt="JavaScript" />
+                    <img src="img/logos/python.svg" />
 
-                    <img src="img/logos/html.svg" alt="HTML" />
+                    <img src="img/logos/lua.svg" />
 
-                    <img src="img/logos/css.svg" alt="CSS" />
+                    <img src="img/logos/javascript.svg" />
 
-                    <img src="img/logos/php.svg" alt="PHP" />
+                    <img src="img/logos/html.svg" />
+
+                    <img src="img/logos/css.svg" />
+
+                    <img src="img/logos/php.svg" />
+
                 </div>
 
-                <div class="tech-container logo-container">
-                    <img src="img/logos/unity.svg" alt="Unity Engine" />
-                    
-                    <img src="img/logos/vscode.svg" alt="Visual Studio Code" style="max-width: 56px;" />
-                    
-                    <img src="img/logos/visualstudio.svg" alt="Visual Studio" style="max-width: 56px;" />
-                    
-                    <img src="img/logos/git.svg" alt="Git" />
-                    
-                    <img src="img/logos/mysql.svg" alt="MySQL" />
+                <div class="flex-child flex row image-container skill-logos">
+
+                    <img src="img/logos/unity.svg" />
+
+                    <img src="img/logos/vscode.svg" style="max-width: 56px;" />
+
+                    <img src="img/logos/visualstudio.svg" style="max-width: 56px;" />
+
+                    <img src="img/logos/git.svg" />
+
+                    <img src="img/logos/mysql.svg" />
+
                 </div>
             </div>
-
         </div>
     </div>
 </body>

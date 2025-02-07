@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'Cascadia Code';
+    src: url(../fonts/CascadiaCode.ttf);
+}
+
+@font-face {
+    font-family: 'Cascadia Code';
+    src: url(../fonts/CascadiaCodeItalic.ttf);
+    font-style: italic;
+}
+
+:root {
+    --color-base: rgb(244, 236, 230);
+    --color-shade: rgb(237, 217, 198);
+    --color-dark: rgb(226, 184, 160);
+    --color-accent: rgb(225, 144, 147);
+    --color-alt: rgb(136, 170, 200);
+
+    --color-text: rgb(30, 31, 34);
+    --color-text-shade: rgb(97, 100, 110);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Cascadia Code', 'Ubuntu', 'Courier New', Courier, monospace;
+
+    color: var(--color-text);
+    font-weight: 300;
+    letter-spacing: .025em;
+
+    scroll-behavior: smooth;
+
+    white-space: 0;
+
+    background-color: var(--color-base);
+}
+
+p b {
+    font-weight: 200;
+    color: var(--color-text-shade);
+}
+
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.centered-content {
+    justify-content: center;
+
+}
+
+.flex-child {
+    flex: 1 1 auto;
+}
+
+p.title {
+    font-size: 2em;
+    font-weight: 200;
+}
+
+p.subtitle {
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+p.heading {
+    font-size: 1.2em;
+    font-weight: 300;
+
+    color: var(--color-text-shade);
+}
+
+p.align-right {
+    text-align: right;
+}
+
+p.no-margin {
+    margin: 0;
+}
+
+.image-container {
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.padding-single {
+    padding: 5px;
+}
+
+.padding-double {
+    padding: 25px;
+}
+
+.column-gap {
+    column-gap: 5px;
+}
+
+.bg-color {
+    border-radius: 5px;
+    /* background-color: var(--color-shade); */
+    background: linear-gradient(0deg, var(--color-base) -20%, var(--color-shade) 100%);
+}
+
+p.separator {
+    padding-bottom: 5px;
+
+    box-shadow: 0px 1px 0px 0px var(--color-alt);
+}
