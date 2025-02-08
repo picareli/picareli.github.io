@@ -19,18 +19,20 @@
 }
 
 .menu a {
+    padding-left: 5px;
+
     font-size: 1.2em;
     font-weight: 300;
 
     text-decoration: none;
 
-    color: var(--color-text);
+    color: var(--color-base);
+    text-shadow: -1px 1px 2px var(--color-text);
 }
 
 .menu a:hover {
-    text-shadow: -2px 2px var(--color-alt);
-
-    transform: translateY(-1px);
+    box-shadow: -5px 0px var(--color-accent);
+    /* transform: translate(-1px, 1px) */
 }
 
 .info {
@@ -134,15 +136,23 @@
 }
 
 .description-logos {
-    height: auto;
+    /* height: auto; */
+    width: 30%;
 
     row-gap: 25px;
 }
 
 .description-logos img {
     max-width: 100px;
-    max-height: 32px;
+    max-height: 35px;
+
+    filter: grayscale();
+    /* filter: grayscale(1) drop-shadow(-1px 1px 1px var(--color-shade)); */
 }
+
+/* img {
+    filter: drop-shadow(-2px 2px 1px var(--color-shade));
+} */
 
 .skill-logos {
     gap: 50px;

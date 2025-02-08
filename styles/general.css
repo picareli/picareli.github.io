@@ -20,10 +20,15 @@
     --color-text-shade: rgb(97, 100, 110);
 }
 
+html,
 body {
     margin: 0;
     padding: 0;
 
+    height: 100%;
+}
+
+body {
     font-family: 'Cascadia Code', 'Ubuntu', 'Courier New', Courier, monospace;
 
     color: var(--color-text);
@@ -37,9 +42,17 @@ body {
     background-color: var(--color-base);
 }
 
+br {
+    width: 100px;
+    height: 10px;
+
+    background-color: black;
+}
+
 p b {
     font-weight: 200;
     color: var(--color-text-shade);
+    opacity: 70%;
 }
 
 .flex {
@@ -60,7 +73,11 @@ p b {
 }
 
 .flex-child {
-    flex: 1 1 auto;
+    flex: 1;
+}
+
+.flex-child-wide {
+    flex: 5;
 }
 
 p.title {
@@ -102,17 +119,31 @@ p.no-margin {
 }
 
 .column-gap {
-    column-gap: 5px;
+    column-gap: 25px;
 }
 
 .bg-color {
     border-radius: 5px;
     /* background-color: var(--color-shade); */
-    background: linear-gradient(0deg, var(--color-base) -20%, var(--color-shade) 100%);
+    background: linear-gradient(0deg, white 15%, var(--color-base) 150%);
+
+    box-shadow: 0px 0px 2px var(--color-shade);
 }
 
 p.separator {
     padding-bottom: 5px;
 
     box-shadow: 0px 1px 0px 0px var(--color-alt);
+}
+
+footer {
+    margin-top: 50px;
+
+    flex-shrink: 0;
+
+    text-align: center;
+    color: var(--color-base);
+
+    background-color: var(--color-alt);
+
 }
