@@ -1,62 +1,234 @@
 <html>
 
 <head>
-    <title>Luís Picareli - Game Developer</title>
+    <title>Luis Picareli - Software Developer</title>
 
-    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/general.css" />
+    <link rel="stylesheet" type="text/css" href="styles/independent.css" />
+
+    <nav id="top" class="flex row menu">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#about">About</a>
+        <a href="mailto:lfpicareli@gmail.com">Contact</a>
+    </nav>
 </head>
 
-<body>
+<body class="flex column">
+    <div class="flex-child">
 
-    <!-- MAIN -->
-    <div class="main">
+        <div class="flex column info">
 
-        <!-- CONTAINER -->
-        <div class="container">
-            <div class="row">
-                <div class="quote box-shadow">
-                    <p>
-                        Game developer, highly proficient with Unity engine and C# programming.
-                        Capable of developing all aspects of a video game (gameplay, UI, systems, ...)
+            <div class="avatar"></div>
 
-                        <br />
+            <p class="title no-margin">Luís Picareli</p>
+            <p class="subtitle no-margin">Software Developer, C# & .Net, Unity Engine</p>
+            <p class="heading no-margin">Lisbon <b>(GMT +0)</b></p>
 
-                        Fast learner, great with problem solving and organized, which means my code is always easy to
-                        understand and well docummented.
+            <div class="flex row socials">
 
-                        <br />
+                <a class="linkedin" href="http://www.linkedin.com/in/picareli" title="Linkedin"></a>
 
-                        Currently developing a game titled <a href="https://store.steampowered.com/app/1473900/Zealot/"
-                            target="BLANK"><i>Zealot</i></a> at an independent game development studio.
+                <a class="github" href="http://www.github.com/picareli" title="Github"></a>
 
-                        <br />
+                <a class="publications"
+                    href="https://scholar.google.com/citations?hl=en&user=VMPZvE8AAAAJ&view_op=list_works&sortby=pubdate"
+                    title="Publications"></a>
 
-                        In the past I have worked developing interactive applications, and <i>Serious Games</i> that
-                        were used for cognitive training and rehabilitation.
+            </div>
+        </div>
 
-                        <br />
+        <div class="flex column main-container">
 
-                        You can view my CV <a href="files\CV_LuisPicareli.pdf" target="BLANK">here</a>
-                    </p>
+            <p id="projects" class="title no-margin"><b>~/</b>Past-Projects</p>
 
-                    <div class="social">
-                        <a class="linkedin" href="http://www.linkedin.com/in/picareli" target="BLANK"></a>
-                        <a class="github" href="http://www.github.com/picareli" target="BLANK"></a>
+            <div class="flex row column-gap">
+
+                <div class="flex column flex-child padding-single bg-color">
+
+                    <p class="subtitle no-margin align-right separator"><b>~/Past-Projects/</b>Zealot</p>
+
+                    <div class="flex column flex-child">
+
+                        <p class="flex-child-wide paragraph">
+                            An action-adventure, souls-like, dark fantasy game, inspired by slavic mythology.
+                            Developed while part of the team at the PrimeCut game studio. <br />
+                            Among my responsibilities were many core systems of the game, particularly those related to
+                            gameplay. <br />
+                            More information on the game's
+                            <a href="https://store.steampowered.com/app/1473900">Steam Page</a>.
+                        </p>
+
+                        <div class="flex row flex-child padding-double image-container description-logos">
+
+                            <img src="img/logos/unity.svg" title="Unity Engine" />
+
+                            <img src="img/logos/csharp.svg" title="C#" />
+
+                            <img src="img/logos/plastic-scm.svg" title="Plastic SCM" />
+
+                        </div>
                     </div>
                 </div>
 
-                <div class="info">
-                    <img src="img/avatar.jpg">
+                <div class="flex column flex-child padding-single bg-color">
 
-                    <p class="box-shadow">Luís Picareli</p>
+                    <p class="subtitle no-margin align-right separator"><b>~/Past-Projects/</b>Systemic-Lisbon-Battery
+                    </p>
 
-                    <p class="box-shadow">Lisbon</p>
+                    <div class="flex column flex-child">
+
+                        <p class="flex-child-wide paragraph">
+                            A platform for cognitive assessment that consists in a series of tasks in the form of
+                            Serious Games. <br />
+                            Newer tasks were fully developed by me, aswell as updating and porting older ones. <br />
+                            The SLB was validated through various papers that can be checked
+                            on my <a
+                                href="https://scholar.google.com/citations?hl=en&user=VMPZvE8AAAAJ&view_op=list_works&sortby=pubdate">Google
+                                Scholar</a> profile.
+                        </p>
+
+                        <div class="flex row flex-child padding-double image-container description-logos">
+
+                            <img src="img/logos/unity.svg" title="Unity Engine" />
+
+                            <img src="img/logos/kinect.svg" title="Kinect for Windows" />
+
+                            <img src="img/logos/android.svg" title="Android SDK" />
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <p class="spacer"></p>
+
+            <p class="title no-margin"><b>~/</b>Work-in-Progress</p>
+
+            <div class="flex row column-gap">
+
+                <div class="flex column flex-child padding-single bg-color">
+
+                    <p class="subtitle no-margin align-right separator"><b>~/Work-in-Progress/</b>ProjectFS</p>
+
+                    <div class="flex column flex-child">
+
+                        <p class="flex-child-wide paragraph">
+                            A gamefied experience for flight simulators, where users can record their progress, start
+                            their own companies and fly passengers and cargo, in thousands of airports across the
+                            world.
+                        </p>
+
+                        <div class="flex row flex-child padding-double image-container description-logos">
+
+                            <img src="img/logos/python.svg" title="Python">
+
+                            <img src="img/logos/csharp.svg" title="C#">
+
+                            <img src="img/logos/unity.svg" title="Unity Engine" />
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex column flex-child padding-single bg-color">
+
+                    <p class="subtitle no-margin align-right separator"><b>~/Work-in-Progress/</b>Password-Manager</p>
+
+                    <div class="flex column flex-child">
+
+                        <p class="flex-child-wide paragraph">
+                            A simple personal application for storing and managing passwords and other sensitive
+                            data securely offline.<br />
+                            Achieving this with the Argon and AES algorithms.
+                        </p>
+
+                        <div class="flex row flex-child padding-double image-container description-logos">
+
+                            <img src="img/logos/python-long.svg" title="Python">
+
+                        </div>
+                    </div>
                 </div>
 
             </div>
 
+            <p class="spacer"></p>
+
+            <p id="skills" class="title no-margin"><b>~/</b>Skills</p>
+
+            <div class="flex column padding-double bg-color" style="row-gap: 50px;">
+
+                <div class="flex-child flex row image-container skill-logos">
+
+                    <img src="img/logos/csharp.svg" title="C#" />
+
+                    <img src="img/logos/c.svg" title="C" />
+
+                    <img src="img/logos/python.svg" title="Python" />
+
+                    <img src="img/logos/lua.svg" title="Lua" />
+
+                    <img src="img/logos/javascript.svg" title="JavaScript" />
+
+                    <img src="img/logos/html.svg" title="HTML" />
+
+                    <img src="img/logos/css.svg" title="CSS" />
+
+                    <img src="img/logos/php.svg" title="PHP" />
+
+                </div>
+
+                <div class="flex-child flex row image-container skill-logos">
+
+                    <img src="img/logos/unity-long.svg" title="Unity Engine" />
+
+                    <img src="img/logos/vscode.svg" title="Visual Studio Code" style="max-width: 56px;" />
+
+                    <img src="img/logos/visualstudio.svg" title="Visual Studio" style="max-width: 56px;" />
+
+                    <img src="img/logos/git.svg" title="Git" />
+
+                    <img src="img/logos/mysql.svg" title="MySQL" />
+
+                </div>
+            </div>
+
+            <p class="spacer"></p>
+
+            <p id="about" class="title no-margin"><b>~/</b>About</p>
+
+            <div class="flex column padding-single bg-color">
+                <p class="no-margin paragraph">
+                    With a decade of experience in software development, I'm familiar with most mainstream
+                    technologies -
+                    Unity egine being my main tool of the trade.
+                    I'm a natural problem solver and can adapt to learn any tool necessary to get the job done.
+                    <br />
+                    In the past year, I have been getting familiar with threading and other advanced C# concepts.
+                    And currently polishing my Python skills through my personal projects.
+                    <br />
+                    While I do like to spend time away from computers by riding my motorcycle and going swimming,
+                    most of my free time is spent on more time-demanding hobbies, such as flight simulation.
+                </p>
+            </div>
+
+            <br>
+            <br>
+            <br>
         </div>
     </div>
+
+    <footer>
+        <p>
+            <a href="mailto:lfpicareli@gmail.com">Contact</a>
+            <a href="http://www.linkedin.com/in/picareli" title="Linkedin">Linkedin</a>
+            <a href="http://www.github.com/picareli" title="Github">Github</a>
+            <a href="https://scholar.google.com/citations?hl=en&user=VMPZvE8AAAAJ&view_op=list_works&sortby=pubdate"
+                title="Publications">Publications</a>
+            <a href="#top" style="align-self: right;">Back to Top</a>
+        </p>
+    </footer>
 </body>
 
 </html>

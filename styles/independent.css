@@ -19,20 +19,22 @@
 }
 
 .menu a {
-    padding-left: 5px;
+    padding: 5px;
 
     font-size: 1.2em;
-    font-weight: 300;
+    font-weight: 350;
 
     text-decoration: none;
 
     color: var(--color-base);
-    text-shadow: -1px 1px 2px var(--color-text);
+
+    border-radius: 5px;
+
+    text-shadow: 0px 0px 1px var(--color-shade);
 }
 
 .menu a:hover {
-    box-shadow: -5px 0px var(--color-accent);
-    /* transform: translate(-1px, 1px) */
+    background-color: rgba(255, 255, 255, .125);
 }
 
 .info {
@@ -58,7 +60,9 @@
 .info p {
     padding: 0 5px 2px 5px;
 
-    box-shadow: 0px 5px 0px -4px var(--color-accent);
+    border-image: linear-gradient(90deg, var(--color-base) 0%, var(--color-accent) 50%, var(--color-base) 100%) 1;
+    border-bottom: 1px solid transparent;
+    /* box-shadow: 0px 1px 0px 0px var(--color-dark); */
 }
 
 .socials {
@@ -69,31 +73,17 @@
     width: 32px;
     height: 32px;
 
-    line-height: 30px;
-
-    color: white;
-
-    font-weight: bold;
-    font-size: 1.25em;
-
-    text-decoration: none;
-    text-align: center;
-
     border-radius: 20%;
 
-    background-color: rgb(136, 170, 200);
+    background-color: var(--color-alt);
     background-position: center;
     background-repeat: no-repeat;
 
-    box-shadow: -3px 2px 0px 0px var(--color-accent);
-}
-
-.socials a:hover {
-    transform: translateY(-2px);
+    box-shadow: 0px 0px 2px var(--color-dark);
 }
 
 .linkedin {
-    background-image: url(../img/ln_w.svg);
+    background-image: url(../img/linkedin.svg);
 }
 
 .linkedin:hover {
@@ -101,34 +91,26 @@
 }
 
 .github {
-    background-image: url(../img/gh_w.svg);
+    background-image: url(../img/github.svg);
 }
 
 .github:hover {
     background-color: rgb(92, 107, 192);
 }
 
-.orcid {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+.publications {
+    background-image: url(../img/bookmark.svg);
 }
 
-.orcid:hover {
+.publications:hover {
     background-color: rgb(175, 205, 76);
-}
-
-.cv {
-    background-image: url(../img/cv_w.svg);
-}
-
-.cv:hover {
-    background-color: rgb(74, 74, 74);
 }
 
 .main-container {
     margin: auto;
     padding: 5px;
 
-    width: 70%;
+    max-width: 1150px;
 
     row-gap: 10px;
 
@@ -136,29 +118,32 @@
 }
 
 .description-logos {
-    /* height: auto; */
-    width: 30%;
-
     row-gap: 25px;
 }
 
 .description-logos img {
-    max-width: 100px;
-    max-height: 35px;
+    height: 35px;
 
-    filter: grayscale();
-    /* filter: grayscale(1) drop-shadow(-1px 1px 1px var(--color-shade)); */
+    /* filter: opacity(.8); */
 }
-
-/* img {
-    filter: drop-shadow(-2px 2px 1px var(--color-shade));
-} */
 
 .skill-logos {
     gap: 50px;
 }
 
 .skill-logos img {
-    max-width: 100px;
-    max-height: 50px;
+    height: 50px;
+}
+
+.spacer {
+    margin: 25px 0px 15px 0px;
+
+    height: 2px;
+    width: 100%;
+
+    align-self: center;
+
+    background: linear-gradient(90deg, var(--color-base) 5%, var(--color-accent) 50%, var(--color-base) 95%);
+
+    filter: opacity(.5);
 }
