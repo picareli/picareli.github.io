@@ -112,6 +112,13 @@ footer a:hover {
     flex-direction: row;
 }
 
+@media only screen and (max-device-width: 640px) {
+    .responsive {
+        flex-direction: column;
+        row-gap: 25px;
+    }
+}
+
 .centered-content {
     justify-content: center;
 
